@@ -1,0 +1,7 @@
+This requirements will be high level requirements and will not go in details.
+
+1. the game shall contains one or more character.
+2. the character can attack in different wayas[kick, push, .....]
+3. attack method could be updated at runtime.
+4. the character shall have one or more weapon
+5. we have different kinds of weapons.
