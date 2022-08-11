@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="rOvHu5e8Tc0cGev-NE6H" name="Page-1">
+        <mxGraphModel dx="1358" dy="1044" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="IchatRoom" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="-198" y="148" width="274" height="225" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="- name : string&#10;- users : vector&lt;shared_ptr&lt;Iusers&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" parent="2" vertex="1">
+                    <mxGeometry y="26" width="274" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="2" vertex="1">
+                    <mxGeometry y="74" width="274" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="+ IChatRoom(string name)&#10;+ ~IChatRoom()&#10;+ setChatName(string) : void&#10;+ getChatName() : string&#10;+ AddUser(shared_ptr&lt;IUser&gt; user) : void&#10;+ deleteUser(shared_ptr&lt;IUser&gt; user) : void&#10;+ notify() : void&#10;+ broadCast(string message) : virtual void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" parent="2" vertex="1">
+                    <mxGeometry y="82" width="274" height="143" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Tahoma;fontSize=13;endArrow=blockThin;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="6" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="EgyptChatRoom" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="-202.5" y="478" width="283" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="6" vertex="1">
+                    <mxGeometry y="26" width="283" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="+ broadCast(string):void&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" parent="6" vertex="1">
+                    <mxGeometry y="34" width="283" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="IUser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="363" y="148" width="274" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="- name : string&#10;- user_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" parent="12" vertex="1">
+                    <mxGeometry y="26" width="274" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="12" vertex="1">
+                    <mxGeometry y="74" width="274" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="+IUser(string name, int id)&#10;- ~IUser()&#10;+ getId() : int&#10;+ setId(int id) : void&#10;+getName(): string&#10;+ setName(string name) : void&#10;+ updateStatus(string status) : virtual void&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" parent="12" vertex="1">
+                    <mxGeometry y="82" width="274" height="128" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.453;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=blockThin;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;endFill=0;" parent="1" source="16" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="IUser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="459" width="274" height="188" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="16" vertex="1">
+                    <mxGeometry y="26" width="274" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="+ updateStatus(string status) virtual : void&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" parent="16" vertex="1">
+                    <mxGeometry y="34" width="274" height="154" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.993;exitY=-0.034;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="15" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="320" y="486" as="sourcePoint"/>
+                        <mxPoint x="480" y="486" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
