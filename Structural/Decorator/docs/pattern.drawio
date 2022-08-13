@@ -1,0 +1,146 @@
+<mxfile host="65bd71144e">
+    <diagram id="u6Owg44vkfEZ2QwQ_eCp" name="Page-1">
+        <mxGraphModel dx="2289" dy="1444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="11" value="Decoffe" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="-307" y="415" width="160" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="11">
+                    <mxGeometry y="26" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="+ Cost() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="11">
+                    <mxGeometry y="34" width="160" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Expreeso" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="-129" y="415" width="160" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="15">
+                    <mxGeometry y="26" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="+ Cost() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="15">
+                    <mxGeometry y="34" width="160" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="IBeverage" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="-270" y="68" width="256" height="203" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="- m_cost: double&#10;- m_description : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" vertex="1" parent="20">
+                    <mxGeometry y="26" width="256" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="20">
+                    <mxGeometry y="82" width="256" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="+ IBeverage()&#10;+ IBeverage(string description,  double price)&#10;+ getDescription() : vritual string&#10;+ getCost() : virtual double&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="20">
+                    <mxGeometry y="90" width="256" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.125;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="11" target="23">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="120" y="327" as="sourcePoint"/>
+                        <mxPoint x="280" y="327" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.925;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="15" target="23">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-168" y="412" as="sourcePoint"/>
+                        <mxPoint x="-80" y="279" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="IAddonDocorator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="322" y="299" width="218" height="141" as="geometry">
+                        <mxRectangle x="322" y="299" width="132" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="- m_beverage : IBeverage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" vertex="1" parent="30">
+                    <mxGeometry y="26" width="218" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="30">
+                    <mxGeometry y="82" width="218" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="+ IBeverageDecorator(IBeverage ibev)&#10;+ Cost() : void&#10;+ getDescription() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="30">
+                    <mxGeometry y="90" width="218" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=1;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="31" target="23">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="120" y="327" as="sourcePoint"/>
+                        <mxPoint x="280" y="327" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.013;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="30" target="23">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="120" y="327" as="sourcePoint"/>
+                        <mxPoint x="280" y="327" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="391" y="217"/>
+                            <mxPoint x="367" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="FullFatMilk" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="44" y="542" width="160" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="37">
+                    <mxGeometry y="26" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="+ Cost() : void&#10;+ getDescription() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="37">
+                    <mxGeometry y="34" width="160" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Chocolate" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="231" y="542" width="160" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="40">
+                    <mxGeometry y="26" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="+ Cost() : void&#10;+ getDescription() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="40">
+                    <mxGeometry y="34" width="160" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="SkimmedMilk" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="542" width="160" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="43">
+                    <mxGeometry y="26" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="+ Cost() : void&#10;+ getDescription() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="43">
+                    <mxGeometry y="34" width="160" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Moca" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="453" y="542" width="160" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="46">
+                    <mxGeometry y="26" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="+ Cost() : void&#10;+ getDescription() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=12;" vertex="1" parent="46">
+                    <mxGeometry y="34" width="160" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="37" target="33">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="120" y="327" as="sourcePoint"/>
+                        <mxPoint x="280" y="327" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.175;entryY=1.059;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="40" target="33">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="120" y="327" as="sourcePoint"/>
+                        <mxPoint x="280" y="327" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.675;entryY=1.118;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="46" target="33">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="120" y="327" as="sourcePoint"/>
+                        <mxPoint x="280" y="327" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="43" target="33">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="120" y="327" as="sourcePoint"/>
+                        <mxPoint x="483" y="421" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="why Ibeverage Docorator inherit from Ibervarage ?&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;sketch=1;hachureGap=4;fontFamily=Tahoma;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="127" y="-53" width="307" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
